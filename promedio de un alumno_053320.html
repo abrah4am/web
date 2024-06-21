@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>promedio de un alumno</title>
+</head>
+
+<center><table border="1" width="800" height="43"></center>
+<tr><td colspan="5"><center><img src="Encabezado.png"  width="750" height="100"></center></td></tr>
+
+<td><p><font  size="3" face="tahoma"> <center>COLEGIO DE ESTUDIOS CIENTIFICOS Y TECNOLGICOS DEL ESTADO DE MEXICO PLANTEL IXTLAHUACA </center></font></p>
+<p><font color="black" size="3" face="tahoma"> <center><strong>Elaborado por:</strong>Abraham Ventura Flores.
+<strong>Grupo:</strong> 402. <strong>Número de Lista:37</strong><br>
+<strong>Fecha de Elaboracion:</strong> 22 de marzo de 2024.<strong> Hora:</strong>9:30 a.m.
+</tr>
+<tr>
+	<td height="50"><center><font  face="tahoma" size="4" color="#33BED5">Promedio de un alumno</font></center> </td>
+</tr>
+<script>
+function sumar(){
+var n1= parseFloat(document.MyForm.txtNumero1.value);
+var n2= parseFloat(document.MyForm.txtNumero2.value); 
+var n3= parseFloat(document.MyForm.txtNumero3.value);
+var n4= parseFloat(document.MyForm.txtNumero4.value);
+var n5= parseFloat(document.MyForm.txtNumero5.value);
+var n6= parseFloat(document.MyForm.txtNumero6.value);
+var n7= parseFloat(document.MyForm.txtNumero7.value);
+var n8= parseFloat(document.MyForm.txtResultado.value=(n1+n2+n3+n4+n5+n6+n7));
+var n9= parseFloat(document.MyForm.txtResultado.value=(n8/7));
+
+}
+</script>
+<center><table width="800" border="1">
+<form name="MyForm">
+
+<tr>
+<td colspan="3" ><center>CALIFICASIONES </center></td>
+</tr>
+
+<tr>
+<td ><label>Calculo Diferencial: </label></td>
+<td ><input type="text" name="txtNumero1"></td>
+ <td rowspan="9"><center><img src="logo.jpg" width="50" height="50"></center></td>
+</tr>
+
+<tr>
+<td><label>Ingles :</label></td>
+<td><input type="text" name="txtNumero2"></td>
+</tr>
+
+<tr>
+<td><label>Física:</label></td>
+<td><input type="text" name="txtNumero3"></td>
+</tr>
+
+<tr>
+<td><label>Ecología:</label></td>
+<td><input type="text" name="txtNumero4"></td>
+</tr>
+
+<tr>
+<td><label>Submódulo 1:</label></td>
+<td><input type="text" name="txtNumero5"></td>
+</tr>
+
+<tr>
+<td><label>Submódulo 2:</label></td>
+<td><input type="text" name="txtNumero6"></td>
+</tr>
+
+<tr>
+<td><label>Submódulo 3:</label></td>
+<td><input type="text" name="txtNumero7"></td>
+</tr>
+
+<tr>
+<td><label>Mohatrar resultado: </label></td>
+<td><input type="text" name="txtResultado"></td>
+</tr>
+
+<tr>
+<td colspan="3" ><center><input type="button" value="Resultado" onclick="sumar()"></center></td>
+</tr>
+
+</table>
+<img src="p.JPG" width="800" height="43">
+<img src="11.PNG" width="800" height="200">
+</html>
